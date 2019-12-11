@@ -8,32 +8,32 @@
   font-family: "Lato-Bold";
   font-weight: normal;
   font-style: normal;
-  src: url("../fonts/Lato-Bold/Lato-Bold.eot");
-  src: url("../fonts/Lato-Bold/Lato-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Bold/Lato-Bold.woff") format("woff"), url("../fonts/Lato-Bold/Lato-Bold.ttf") format("truetype"); }
+  src: url("fonts/Lato-Bold/Lato-Bold.eot");
+  src: url("fonts/Lato-Bold/Lato-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/Lato-Bold/Lato-Bold.woff") format("woff"), url("fonts/Lato-Bold/Lato-Bold.ttf") format("truetype"); }
 @font-face {
   font-family: "Lato-Italic";
   font-weight: normal;
   font-style: normal;
-  src: url("../fonts/Lato-Italic/Lato-Italic.eot");
-  src: url("../fonts/Lato-Italic/Lato-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Italic/Lato-Italic.woff") format("woff"), url("../fonts/Lato-Italic/Lato-Italic.ttf") format("truetype"); }
+  src: url("fonts/Lato-Italic/Lato-Italic.eot");
+  src: url("fonts/Lato-Italic/Lato-Italic.eot?#iefix") format("embedded-opentype"), url("fonts/Lato-Italic/Lato-Italic.woff") format("woff"), url("fonts/Lato-Italic/Lato-Italic.ttf") format("truetype"); }
 @font-face {
   font-family: "CharterITCC-Regular";
   font-weight: normal;
   font-style: normal;
-  src: url("../fonts/CharterITCC-Regular/CharterITCC-Regular.eot");
-  src: url("../fonts/CharterITCC-Regular/CharterITCC-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/CharterITCC-Regular/CharterITCC-Regular.woff") format("woff"), url("../fonts/CharterITCC-Regular/CharterITCC-Regular.ttf") format("truetype"); }
+  src: url("fonts/CharterITCC-Regular/CharterITCC-Regular.eot");
+  src: url("fonts/CharterITCC-Regular/CharterITCC-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/CharterITCC-Regular/CharterITCC-Regular.woff") format("woff"), url("fonts/CharterITCC-Regular/CharterITCC-Regular.ttf") format("truetype"); }
 @font-face {
   font-family: "CharterITCC-Bold";
   font-weight: normal;
   font-style: normal;
-  src: url("../fonts/CharterITCC-Bold/CharterITCC-Bold.eot");
-  src: url("../fonts/CharterITCC-Bold/CharterITCC-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/CharterITCC-Bold/CharterITCC-Bold.woff") format("woff"), url("../fonts/CharterITCC-Bold/CharterITCC-Bold.ttf") format("truetype"); }
+  src: url("fonts/CharterITCC-Bold/CharterITCC-Bold.eot");
+  src: url("fonts/CharterITCC-Bold/CharterITCC-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/CharterITCC-Bold/CharterITCC-Bold.woff") format("woff"), url("fonts/CharterITCC-Bold/CharterITCC-Bold.ttf") format("truetype"); }
 @font-face {
   font-family: "CharterITCC-BoldItalic";
   font-weight: normal;
   font-style: normal;
-  src: url("../fonts/CharterITCC-BoldItalic/CharterITCC-BoldItalic.eot");
-  src: url("../fonts/CharterITCC-BoldItalic/CharterITCC-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/CharterITCC-BoldItalic/CharterITCC-BoldItalic.woff") format("woff"), url("../fonts/CharterITCC-BoldItalic/CharterITCC-BoldItalic.ttf") format("truetype"); }
+  src: url("fonts/CharterITCC-BoldItalic/CharterITCC-BoldItalic.eot");
+  src: url("fonts/CharterITCC-BoldItalic/CharterITCC-BoldItalic.eot?#iefix") format("embedded-opentype"), url("fonts/CharterITCC-BoldItalic/CharterITCC-BoldItalic.woff") format("woff"), url("fonts/CharterITCC-BoldItalic/CharterITCC-BoldItalic.ttf") format("truetype"); }
 html,
 body {
   height: 100%; }
@@ -519,7 +519,7 @@ em {
       .our_courses_list .item .text_wrap .arrow-right {
         width: 32px;
         height: 32px;
-        background: url(../img/right_arrow.png) no-repeat center;
+        background: url(img/right_arrow.png) no-repeat center;
         position: absolute;
         top: 22px;
         right: 30px; }
