@@ -21,7 +21,9 @@
   font-weight: normal;
   font-style: normal;
   src: url("fonts/CharterITCC-Regular/CharterITCC-Regular.eot");
-  src: url("fonts/CharterITCC-Regular/CharterITCC-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/CharterITCC-Regular/CharterITCC-Regular.woff") format("woff"), url("fonts/CharterITCC-Regular/CharterITCC-Regular.ttf") format("truetype"); }
+  src: url("fonts/CharterITCC-Regular/CharterITCC-Regular.eot?#iefix") format("embedded-opentype"),
+   url("fonts/CharterITCC-Regular/CharterITCC-Regular.woff") format("woff"),
+    url("fonts/CharterITCC-Regular/CharterITCC-Regular.ttf") format("truetype"); }
 @font-face {
   font-family: "CharterITCC-Bold";
   font-weight: normal;
