@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Register Page</title>
+  <meta name="description" content="">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Template Basic Images Start -->
+  <meta property="og:image" content="path/to/image.jpg">
+  <link rel="icon" href="img/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+  <!-- Template Basic Images End -->
+
+  <!-- Custom Browsers Color Start -->
+  <meta name="theme-color" content="#000">
+  <!-- Custom Browsers Color End -->
+
+  <!-- google font -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i&amp;subset=cyrillic" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/libs.min.css">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- preloader -->
+    <div id="preloader">
+        <div id="preloader_outer" class="abs cXY">
+            <div id="preloader_inner">
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="75" width="75" viewbox="0 0 75 75">
+                    <circle cx="37.5" cy="37.5" r="33.5" stroke-width="3" />
+                </svg>
+            </div>
+        </div>
+    </div>
+    <!-- preloader -->
+    <!-- wrap for mm-menu -->
+    <div>
+        <!-- header -->
+        <header>
+            <div class="head_top">
+                <div class="container">
+                    <div class="head_top_inner">
+                        <div class="logo"><a href="index.html"><img src="img/logo.png" alt="Эксперт Проект Строй"></a></div>
+                        <div class="head_contact_wrap">
+                            <div class="item upper">
+                                <div class="icon"><img src="img/icons/head-icon/envelope.png" alt=""></div>
+                                <div class="cont_info">
+                                    <div class="text">остались вопросы?</div>
+                                    <a href="mailto:info@expertps.ru">info@expertps.ru</a>
+                                </div>
+                            </div>
+                            <div class="item upper">
+                                <div class="icon"><img src="img/icons/head-icon/phone.png" alt=""></div>
+                                <div class="cont_info">
+                                    <div class="text">наш телефон</div>
+                                    <a href="tel:+7 (4722) 200751">+7 (4722) 200751</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="head_menu_wrap">
+                <div class="container">
+                    <div class="flex_inner">
+                        <div class="menu_inner_wrap">
+                            <!-- humburger -->
+                            <a href="#site_left_menu" class="hamburger hamburger--spin" id="my-icon">
+                            <span class="hamburger-box"> 
+                              <span class="hamburger-inner"></span>
+                            </span>
+                        </a>
+                            <!-- //humburger -->
+                            <!-- desctop menu -->
+                            <nav id="site_main_menu" class="navbar-collapse">
+                                <ul class="nav navbar-nav desk_menu">
+                                    <li><a href="single.html">Правила закупок</a></li>
+                                    <li><a href="#">Пользовательское соглашение</a></li>
+                                    <li><a href="#">Документы</a></li>
+                                    <li><a href="#">Обработка данных</a></li>
+                                </ul>
+                            </nav>
+                            <!-- desctop menu  end-->
+                            <!-- mobile menu start-->
+                            <nav id="site_left_menu" class="">
+                                <ul class="">
+                                    <li><a href="single.html">Правила закупок</a></li>
+                                    <li><a href="#">Пользовательское соглашение</a></li>
+                                    <li><a href="#">Документы</a></li>
+                                    <li><a href="#">Обработка данных</a></li>
+                                </ul>
+                            </nav>
+                            <!-- mobile menu end -->
+                        </div>
+                        <div class="btn_wrap">
+                            <a href="#modal_enter" data-toggle="modal" class="enter_modal head_btn">Войти</a>
+                            <a href="#" class="reg_btn head_btn">Регистрация</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header -->
+        <!-- hp content -->
+        <div class="single_content">
+            <div class="container">
+                <div class="row">
+                    <!-- aside -->
+                    <aside class="left_aside col-md-3">
+                        <div class="aside_widget">
+                            <div class="aside_menu_ttl">Пункты меню</div>
+                            <ul class="aside_list">
+                                <li><a href="single.html">Правила проведения закупок</a></li>
+                                <li><a href="#">Пользовательское соглашение</a></li>
+                                <li><a href="#">Документы</a></li>
+                                <li><a href="#">Регистрация</a></li>
+                                <li><a href="#">Обработка персональных данных</a></li>
+                            </ul>
+                        </div>
+                    </aside>
+                    <!-- //aside -->
+                    <!-- main content -->
+                    <main class="col-md-9">
+                        <h1 class="page_ttl">Регистрация нового пользователя</h1>
+                        <!-- register tabs -->
+                        <div role="tabpanel" class="reg_tabs">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation" class=" disabled active">
+                                    <a href="#tab1" aria-controls="" role="tab" data-toggle="tab">Пользователь</a>
+                                </li>
+                                <li role="presentation" class="  disabled">
+                                    <a href="#tab2" aria-controls="" role="tab" data-toggle="tab">Организация</a>
+                                </li>
+                                <li role="presentation" class="disabled ">
+                                    <a href="#tab3" aria-controls="" role="tab" data-toggle="tab">Учредительные документы</a>
+                                </li>
+                            </ul>
+                            <!-- Tab panes -->
+                            <form action="" method="" role="" class="reg_form general_form">
+                                <div class="tab-content">
+                                    <!-- registration step one -->
+                                    <div role="tabpanel" class="tab-pane active" id="tab1">
+                                        <div class="form-group">
+                                            <label for="">E-mail <sup>*</sup></label>
+                                            <input type="mail" class="" id="" placeholder="Для входа в систему">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">Пароль <sup>*</sup></label>
+                                            <input type="password" class="" id="" placeholder="*******">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">Имя <sup>*</sup></label>
+                                            <input type="text" class="" id="" placeholder="Введите имя">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">Фамилия <sup>*</sup></label>
+                                            <input type="text" class="" id="" placeholder="Введите фамилию">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">Должность <sup>*</sup></label>
+                                            <input type="text" class="" id="" placeholder="Введите должность">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">ИНН <sup>*</sup></label>
+                                            <input type="text" class="" id="" placeholder="Введите ИНН">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">Телефон мобильный <sup>*</sup></label>
+                                            <input type="text" class="tel" id="" placeholder="+7 (___) - ___ - __ - __">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">Телефон городской <sup>*</sup></label>
+                                            <input type="text" class="tel" id="" placeholder="+7 (___) - ___ - __ - __">
+                                        </div>
+                                        <div class="flex_control btn_group">
+                                            <div class="text">Пароль должен быть не менее 6 символов длиной.</div>
+                                            <a href="#tab2" aria-controls="" role="tab" data-toggle="tab" class="next reg_form_btn">Далее</a>
+                                        </div>
+                                        <div class="flex_control">
+                                            <div class="custom_checkbox">
+                                                <input type="checkbox" name="" id="custom_checkbox">
+                                                <label for="custom_checkbox">Принимаю</label>
+                                            </div>
+                                            <a href="#">пользовательское соглашение</a>
+                                        </div>
+                                        <div class="flex_control"><a href="#">Авторизоваться</a>
+                                        </div>
+                                    </div>
+                                    <!-- //registration step one -->
+                                    <!-- registration step two -->
+                                    <div role="tabpanel" class="tab-pane " id="tab2">
+                                        <div class="form-group">
+                                            <label for="">Полное наименование организации <sup>*</sup></label>
+                                            <input type="text" class="" id="">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">Краткое наименование организации <sup>*</sup></label>
+                                            <input type="text" class="" id="">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">Направление деятельности <sup>*</sup></label>
+                                            <input type="text" class="" id="">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">Юридический адрес <sup>*</sup></label>
+                                            <input type="text" class="" id="">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">Почтовый адрес <sup>*</sup></label>
+                                            <input type="text" class="" id="">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">Официальный эл. адрес <sup>*</sup></label>
+                                            <input type="text" class="" id="">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">ФИО уполномоченного лица <sup>*</sup></label>
+                                            <input type="text" class="" id="">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">Телефон уполномоченного лица <sup>*</sup></label>
+                                            <input type="text" class="" id="">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">Адрес производства</label>
+                                            <input type="text" class="" id="">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">ИНН<sup>*</sup></label>
+                                            <input type="text" class="" id="">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">ОГРН (ОГРНИП) <sup>*</sup></label>
+                                            <input type="text" class="" id="">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">КПП</label>
+                                            <input type="text" class="" id="">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">Тип компании <sup>*</sup> </label>
+                                            <select class="selectpicker" title="Производитель">
+                                                <option>Mustard</option>
+                                                <option>Ketchup</option>
+                                                <option>Relish</option>
+                                                <option>Relish</option>
+                                                <option>Relish</option>
+                                                <option>Relish</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">атегория поставщика <sup>*</sup> </label>
+                                            <select class="selectpicker" title="Производитель">
+                                                <option>Mustard</option>
+                                                <option>Ketchup</option>
+                                                <option>Relish</option>
+                                                <option>Relish</option>
+                                                <option>Relish</option>
+                                                <option>Relish</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">Сайт</label>
+                                            <input type="text" class="" id="">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">Логотип компании</label>
+                                            <input type="file" class="hide inputfile" id="upload" data-multiple-caption="{count} files selected" multiple />
+                                            <label for="upload" class="upload"><span>Выберите файл</span></label>
+                                        </div>
+                                        <div class="flex_control btn_group">
+                                            <a href="#tab1" aria-controls="" role="tab" data-toggle="tab" class="prev reg_form_btn">Назад</a>
+                                            <a href="#tab3" aria-controls="" role="tab" data-toggle="tab" class="next reg_form_btn">Далее</a>
+                                        </div>
+                                        <div class="flex_control"><a href="#">Авторизоваться</a></div>
+                                    </div>
+                                    <!-- //registration step two -->
+                                    <!-- registration step three -->
+                                    <div role="tabpanel" class="tab-pane " id="tab3">
+                                        <div class="form-group">
+                                            <label for="">Документ</label>
+                                            <input type="file" class="hide inputfile" id="upload1" data-multiple-caption="{count} files selected" multiple />
+                                            <label for="upload1" class="upload"><span>Выберите файл</span></label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">ИНН <sup>*</sup></label>
+                                            <input type="file" class="hide inputfile" id="upload2" data-multiple-caption="{count} files selected" multiple />
+                                            <label for="upload2" class="upload"><span>Выберите файл</span></label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">ОГРН <sup>*</sup></label>
+                                            <input type="file" class="hide inputfile" id="upload3" data-multiple-caption="{count} files selected" multiple />
+                                            <label for="upload3" class="upload"><span>Выберите файл</span></label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">Устав (файл pdf) <sup>*</sup></label>
+                                            <input type="file" class="hide inputfile" id="upload4" data-multiple-caption="{count} files selected" multiple />
+                                            <label for="upload4" class="upload"><span>Выберите файл</span></label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">Выписка из ЕГРЮЛ (ЕГРИП <sup>*</sup></label>
+                                            <input type="file" class="hide inputfile" id="upload5" data-multiple-caption="{count} files selected" multiple />
+                                            <label for="upload5" class="upload"><span>Выберите файл</span></label>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">Карточка реквизитов <sup>*</sup></label>
+                                            <input type="file" class="hide inputfile" id="upload6" data-multiple-caption="{count} files selected" multiple />
+                                            <label for="upload6" class="upload"><span>Выберите файл</span></label>
+                                        </div>
+                                        <div class="flex_control btn_group">
+                                            <a href="#tab2" aria-controls="" role="tab" data-toggle="tab" class="prev reg_form_btn">Назад</a>
+                                            <input type="submit" value="Регистрация" class="reg_form_btn">
+                                        </div>
+                                        <div class="flex_control"><a href="#">Авторизоваться</a></div>
+                                    </div>
+                                    <!-- //registration step three -->
+                                </div>
+                            </form>
+                        </div>
+                        <!-- //register tabs -->
+                    </main>
+                    <!-- //main content -->
+                </div>
+                <section class="adv_s">
+                    <div class="container">
+                        <div class="adv_flex">
+                            <div class="adv_box">
+                                <img src="img/demo/adv_example.png" alt="">
+                            </div>
+                            <div class="adv_box">
+                                <img src="img/demo/adv_example.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- hp section 6  -->
+                <section class="hp_s6 parters">
+                    <div class="container">
+                        <ul class="partners_carousel">
+                            <li><a href="#" target="_blank"><img src="img/icons/parthners/agrobel.png" alt=""></a></li>
+                            <li><a href="#" target="_blank"><img src="img/icons/parthners/bdw.gif" alt=""></a></li>
+                            <li><a href="#" target="_blank"><img src="img/icons/parthners/buhler.gif" alt=""></a></li>
+                            <li><a href="#" target="_blank"><img src="img/icons/parthners/promproekt.png" alt=""></a></li>
+                            <li><a href="#" target="_blank"><img src="img/icons/parthners/spaco.gif" alt=""></a></li>
+                            <li><a href="#" target="_blank"><img src="img/icons/parthners/termokul.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- //hp section 6  -->
+            </div>
+        </div>
+        <!-- //hp content -->
+        <!-- footer -->
+        <footer>
+            <div class="container">
+                <div class="footer_inner">
+                    <div class="footer_1 footer_col">
+                        <div class="logo"><a href="index.ht"><img src="img/logo.png" alt=""></a></div>
+                        <div class="seo_text">
+                            <p>Идейные соображения высшего порядка, а также укрепление и развитие структуры обеспечивает</p>
+                        </div>
+                        <div class="copyrigth">© 2019 EPS Все права защищены.</div>
+                    </div>
+                    <div class="wrap_mob">
+                        <div class="footer_2 footer_col">
+                            <div class="foot_ttl">Подробнее</div>
+                            <ul class="footer_list">
+                                <li><a href="#">Правила проведения закупок</a></li>
+                                <li><a href="#">Пользовательское соглашение</a></li>
+                                <li><a href="#">Документы</a></li>
+                                <li><a href="#">Регистрация</a></li>
+                                <li><a href="#">Обработка персональных данных</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer_3 footer_col">
+                            <div class="foot_ttl">О КОМПАНИИ</div>
+                            <ul class="footer_list">
+                                <li><a href="">Информация о компании</a></li>
+                                <li><a href="">Новости</a></li>
+                                <li><a href="">Экспертиза</a></li>
+                                <li><a href="">Строительство</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer_4 footer_col">
+                            <div class="foot_ttl">Обратная связь</div>
+                            <ul class="footer_list footer_contact">
+                                <li class="mail">
+                                    <a href="mailto:info@experts.ru">
+                                    info@experts.ru
+                                  </a>
+                                </li>
+                                <li class="phone">
+                                    <a href="tel:+7 (4722) 200751">
+                                    +7 (4722) 200751
+                                  </a>
+                                </li>
+                                <li class="location">
+                                    г. Белгород, ул. Сумская, д. 6-д., офис 301
+                                </li>
+                            </ul>
+                            <ul class="footer_list">
+                                <li><a href="#modal_mistake" data-toggle="modal">Сообщить об ошибке</a></li>
+                                <li><a href="#">Написать нам</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer -->
+    </div>
+    <!-- //wrap for mm-menu -->
+    
+    <!-- bootstrap modal enter -->
+    <div class="modal fade enter" id="modal_enter">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Вход в систему</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="reg_form general_form">
+                        <div class="form-group">
+                            <label for="">E-mail <sup>*</sup></label>
+                            <input type="mail" class="" id="" placeholder="Для входа в систему">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Пароль <sup>*</sup></label>
+                            <input type="password" class="" id="" placeholder="*******">
+                        </div>
+                        <div class="flex_control btn_group">
+                            <input type="submit" value="Войти" class="reg_form_btn">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //bootstrap modal enter -->
+    <!-- bootstrap modal mistake -->
+    <div class="modal fade mistake" id="modal_mistake">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Сообщение об ошибке</h4>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="reg_form general_form">
+                        <div class="form-group">
+                            <label for="">Имя <sup>*</sup></label>
+                            <input type="text" class="" id="" placeholder="Введите имя">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Телефон <sup>*</sup></label>
+                            <input type="text" class="tel" id="" placeholder="+7 (___) - ___ - __ - __">
+                        </div>
+                        <div class="form-group">
+                            <label for="">E-mail <sup>*</sup></label>
+                            <input type="mail" class="" id="" placeholder="Для входа в систему">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Сообщение <sup>*</sup></label>
+                            <textarea name="" id="" placeholder="Опишите ошибку"></textarea>
+                        </div>
+                        <div class="flex_control btn_group">
+                            <input type="submit" value="Отправить" class="reg_form_btn">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //bootstrap modal mistake -->
+
+    <!-- jquery and other script -->
+    <script type="text/javascript" src="js/libs.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+</body>
+
+</html>
