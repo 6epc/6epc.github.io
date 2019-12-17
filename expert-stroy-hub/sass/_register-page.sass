@@ -1,0 +1,207 @@
+/* REGISTER PAGE */
+/* registration_tabs
+ */
+.reg_tabs .nav-tabs
+  padding-left: 37px
+  border: 0
+  margin: 0 0 15px
+
+  li.active
+    pointer-events: all
+
+  > li
+    margin-bottom: 0
+    margin-right: 30px
+
+    &.disabled
+      > a
+        border: 0
+        font-size: 16px
+        line-height: 20px
+        font-weight: 600
+        color: #dfdfdf
+        padding: 0 0 0 30px
+        position: relative
+        cursor: pointer
+
+      &:hover > a
+        color: #757575
+
+      > a::before
+        content: ""
+        width: 19px
+        height: 19px
+        position: absolute
+        left: 0
+        top: 1px
+        background: url(img/icons/reg/step_disabled.png) no-repeat center
+        z-index: 15
+        display: block
+
+      &.active > a
+        color: $black
+
+        &::before
+          background: url(img/icons/reg/step_active.png) no-repeat center
+
+/* reg form style */
+
+.reg_form
+  .form-group
+    display: flex
+    flex-wrap: wrap
+    align-items: center
+    margin: 0 0 10px
+
+    label
+      width: 230px
+      font-weight: 600
+      font-size: 14px
+      line-height: 16px
+      margin: 0
+      padding-right: 15px
+      color: $black
+
+      sup
+        color: #a31a1a
+        top: -2px
+        font-size: 14px
+
+  input:not([type="submit"]), textarea
+    flex: 1
+
+.reg_form_btn, #sendcomment .btn
+  display: inline-block
+  border: 1px solid transparent
+  -webkit-border-radius: 6px
+  border-radius: 6px
+  font-size: 16px
+  line-height: 1
+  white-space: nowrap
+  border-color: $accent
+  color: #fff
+  padding: 7px 16px
+  background-color: $accent
+  min-width: 131px
+  text-align: center
+  text-decoration: none !important
+
+.reg_form_btn
+  &:hover, &:focus
+    background-color: #fff
+    text-decoration: none
+    color: $accent
+
+#sendcomment .btn
+  &:hover, &:focus
+    background-color: #fff
+    text-decoration: none
+    color: $accent
+
+#tab1 .next
+  margin-left: 25px
+
+#tab2 .flex_control.btn_group, #tab3 .flex_control.btn_group
+  justify-content: space-between
+
+.flex_control
+  display: flex
+  flex-wrap: wrap
+  justify-content: flex-end
+  align-items: center
+  margin: 0 0 15px
+
+  &.btn_group
+    margin-top: 20px
+
+    .text
+      font-size: 14px
+      line-height: 16px
+      color: $black
+
+  a
+    &:not([class="reg_form_btn"])
+      font-size: 16px
+      line-height: 20px
+      text-decoration: underline
+
+    &:hover, &:focus
+      text-decoration: none
+
+/* custom checkbox */
+
+.custom_checkbox
+  margin-right: 5px
+
+  input
+    display: none !important
+
+  label
+    margin: 0
+    font-size: 16px
+    line-height: 20px
+    color: #dfdfdf
+    font-weight: 400
+    position: relative
+    padding-left: 30px
+    cursor: pointer
+    display: block
+
+    &::before
+      content: ""
+      width: 19px
+      height: 19px
+      position: absolute
+      left: 0
+      top: 1px
+      background: url(img/icons/reg/step_disabled.png) no-repeat center
+      z-index: 15
+      display: block
+
+  input:checked + label
+    color: $black
+
+    &::before
+      background: url(img/icons/reg/step_active.png) no-repeat center
+
+/* bootstrap select custom */
+
+.reg_form .bootstrap-select
+  flex: 1
+
+.bootstrap-select > .dropdown-toggle.bs-placeholder
+  color: #e7e7e7
+  background: #fff
+
+  &:active, &:focus, &:hover
+    color: #e7e7e7
+    background: #fff
+
+  &:active, &:focus
+    color: $black
+
+  border: 1px solid #dfdfdf
+  border-radius: 8px
+  outline: none !important
+  box-shadow: none
+
+/*custom input type file
+
+.reg_form .form-group .upload
+  font-size: 14px
+  line-height: 16px
+  color: $black
+  font-weight: 400
+  background-color: #dfdfdf
+  border-radius: 6px
+  padding: 8px 24px
+  width: auto
+  max-width: 250px
+  cursor: pointer
+  border: 1px solid #dfdfdf
+  transition: all .3s
+  min-width: 155px
+  text-align: center
+
+  &:hover, &:focus
+    background-color: #fff

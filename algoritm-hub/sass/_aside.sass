@@ -1,0 +1,121 @@
+@import "vars"
+.site_wrap
+  padding-left: 250px
+
+.container
+  width: 1190px
+  max-width: 100%
+
+.mob_overlay
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  background-color: rgba(0, 30, 69, .5)
+  cursor: pointer
+  display: none
+  z-index: 1000
+
+.aside_open
+  overflow-y: hidden
+  .mob_overlay
+    display: block
+  
+  .site_wrap
+    overflow-y: hidden
+
+.left_bar
+  width: 250px
+  height: 100vh
+  position: fixed
+  left: 0
+  top: 0
+  z-index: 1001
+  background-color: #000721
+  color: #ffffff
+  transition: all .3s
+  a
+    color: #fff
+    text-decoration: none
+
+  .left_bar_inner
+    position: relative
+    height: 100%
+    padding-top: 34px
+  
+  .logo 
+    margin: 0 auto 37px 28px
+  
+  .scroll
+    max-height: calc(100vh - 400px)
+    position: relative
+    &.ps-container>.ps-scrollbar-y-rail
+      opacity: 1
+      width: 2px
+      background: rgba(255,255,255,.3)
+      right: 7px !important
+    
+    &.ps-container>.ps-scrollbar-y-rail>.ps-scrollbar-y
+      width: 2px
+      background-color: #f37032
+      right: auto
+      left: 0
+
+  .navigation
+    margin: 0
+    padding: 0
+    list-style: none
+    li+li
+      border-top: 1px solid #001025
+
+    >li
+      border-top: 1px solid transparent
+      >a
+        display: block
+        font-size: 16px
+        line-height: 20px
+        color: #dddddd
+        border-left: 3px solid transparent
+        padding: 8px 28px
+        letter-spacing: 0.02em
+        background-color: $accent
+
+      &:hover>a,
+      &.active>a
+        border-left-color: #f37032
+        color: #fff
+        background-color: #1a3c5a
+
+  .aside_contact
+    border-top: 1px solid $accent
+    padding: 34px 28px
+    position: absolute
+    left: 0
+    bottom: 0
+    max-width: 100%
+    .aside_btn
+      display: block
+      font-size: 12px
+      line-height: 12px
+      letter-spacing: 0.02em
+      width: 100%
+      text-align: center
+      border: 2px solid #f37032
+      background: rgba(243, 112, 50, .2)
+      border-radius: 30px
+      padding: 11px 10px 9px 10px
+      margin-bottom: 37px
+      &:hover,
+      &:focus
+        color: #fff
+        background-color: #f37032
+
+    .contact_inner
+      font-size: 14px
+      line-height: 17px
+      letter-spacing: 0.02em
+      p
+        margin-bottom: 8px
+        &:last-child
+          margin: 0

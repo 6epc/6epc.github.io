@@ -1,0 +1,94 @@
+/* footer
+ */
+footer
+  border-top: 1px solid #e9eaea
+  padding: 50px 0 20px
+
+.footer_inner
+  display: flex
+  flex-wrap: wrap
+
+.footer_1
+  max-width: 265px
+  margin-right: 90px
+
+.footer_inner .wrap_mob
+  flex: 1
+  justify-content: space-between
+  display: flex
+  flex-wrap: wrap
+  position: relative
+  top: -5px
+
+.footer_2
+  max-width: 240px
+
+.footer_3
+  max-width: 210px
+
+.footer_4
+  max-width: 190px
+
+.footer_1
+  .logo
+    margin: 0 0 22px
+
+  .seo_text, .copyrigth
+    font-size: 14px
+    line-height: 24px
+    color: $black
+    font-weight: 600
+
+  .seo_text
+    p:last-child
+      margin: 0
+
+    margin-bottom: 27px
+
+.foot_ttl
+  font-size: 18px
+  line-height: 24px
+  color: $black
+  text-transform: uppercase
+  font-weight: 600
+  margin: 0 0 18px
+
+.footer_list
+  padding: 0
+  margin: 0
+  list-style: none
+
+  > li
+    > a
+      font-size: 14px
+      line-height: 24px
+      color: #868686
+      text-decoration: none
+
+      &:hover, &:focus
+        color: $secondary
+        text-decoration: underline
+
+    font-size: 14px
+    line-height: 24px
+    color: #868686
+    text-decoration: none
+
+  &.footer_contact
+    margin-bottom: 10px
+
+.footer_4 .footer_list.footer_contact
+  > li
+    padding-left: 30px
+
+    &.mail
+      background: url(img/icons/foot-contact/mail.png) no-repeat 0 5px
+
+    &.phone
+      background: url(img/icons/foot-contact/phone.png) no-repeat 0 5px
+
+    &.location
+      background: url(img/icons/foot-contact/location.png) no-repeat 0 5px
+
+  + .footer_list li
+    padding-left: 30px

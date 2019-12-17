@@ -1,0 +1,46 @@
+::placeholder
+  color: $placeholder_color
+
+/* general form style */
+
+.general_form
+  input
+    &::-ms-clear
+      display: none
+
+    &:not([type="submit"])
+      border: 1px solid #dfdfdf
+      color: $black
+      border-radius: 8px
+      font-size: 14px
+      line-height: 18px
+      padding: 7px 22px
+      display: block
+
+  textarea
+    border: 1px solid #dfdfdf
+    color: $black
+    border-radius: 8px
+    font-size: 14px
+    line-height: 18px
+    padding: 7px 22px
+    display: block
+    height: 120px
+    resize: none
+
+  input:not([type="submit"]):focus, textarea:focus
+    border-color: $black
+
+  input
+    &::-webkit-input-placeholder
+      color: #e7e7e7
+
+    &:focus::-webkit-input-placeholder
+      color: $black
+
+    &:-moz-placeholder, &:focus:-moz-placeholder, &:-ms-input-placeholder, &:focus:-ms-input-placeholder
+      color: #e7e7e7
+
+  textarea
+    &::-webkit-input-placeholder, &:-moz-placeholder, &:-ms-input-placeholder
+      color: #e7e7e7

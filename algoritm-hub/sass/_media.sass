@@ -1,0 +1,261 @@
+@import "vars"
+@media (max-width:1440px)
+  /* home page */
+  .s1_abs
+    justify-content: center
+  /* //home page */
+
+  /* single */
+  .single_s1 .text_wrap
+    padding: 40px
+
+  .single_s1 .text_wrap .page_ttl
+    font-size: 55px
+    line-height: 62px
+
+@media (max-width:1200px)
+  .site_wrap
+    padding: 0
+
+    .left_bar
+      transform: translateX(-100%)
+
+  .aside_open
+    .left_bar
+      transform: translateX(0)
+
+    .content,
+    footer
+      transform: translateX(250px)
+
+  /* single */
+  .single_s1 .text_wrap .page_ttl
+    font-size: 45px
+    line-height: 55px
+
+@media (max-width:992px)
+  /* home page */
+  .hp_s1
+    background: url(../img/home_s1.png) no-repeat center
+    min-height: 300px
+    .w1600 img
+      display: none
+
+    .s1_abs
+      position: relative
+      padding: 7% 15px
+
+  .hp_s2
+    padding: 7% 0
+    border-bottom: 1px solid #ccc
+
+  .hp_s3
+    padding: 5% 0 7%
+    min-height: 1px
+
+    &::before
+      display: none
+
+  .hp_s4,
+  .hp_s4.single_s4
+    padding: 5% 0 7%
+
+  .our_courses_list .item .text_wrap .arrow-right
+    display: none
+
+  .our_courses_list .item .text_wrap
+    padding: 15px
+    font-size: 18px
+    line-height: 24px
+
+  .our_courses_list .item .image .age_list
+    padding: 0 10px
+
+  .our_courses_list .item .image .age_list>li
+    font-family: $charter-r
+    padding: 4px
+  /* //home page */
+
+  /* single */
+  .single_s1 .single_thumb
+    display: none
+
+  .single_s1 .text_wrap
+    padding: 70px 40px 7%
+    width: 100%
+
+  .single_s2
+    padding: 3% 0
+
+  .single_s3
+    padding: 4% 0 20px
+
+  .author_box+.author_box
+    margin-top: 6%
+
+  .modal-dialog
+    margin: 40px auto 0
+
+@media (max-width:767px)
+  /* home page */
+  .our_courses_list .item
+    width: calc(100%/2 - 20px)
+    &:nth-child(n+3)
+      margin-top: 20px
+      
+  /* //home page */
+
+  /* single */
+  .single_s1 .text_wrap
+    padding-left: 15px
+    padding-right: 15px
+
+  .cours_desc,
+  .author_info
+    padding: 0 15px
+
+  .single_s3 .hp_ttl
+    margin: 0 0 20px
+
+@media (max-width:670px)
+  /* home page */
+  .hp_s1 .s1_abs
+    padding: 14% 15px 7%
+    text-align: center
+
+  .s1_abs .text_wrap .ttl,
+  .hp_s4 .hp_ttl,
+  .hp_s3 .hp_ttl,
+  .hp_ttl,
+  .single_s1 .text_wrap .page_ttl
+    font-size: 40px
+    line-height: 56px
+
+  .s1_abs .text_wrap .sub_text
+    max-width: 100%
+
+  .btn_set .or
+    display: none
+
+  .btn_set .my_btn
+    margin: 0 5px
+
+  /* //home page */
+  .author_info .about_text
+    flex: auto
+    width: 100%
+    padding-left: 0
+
+  .cours_desc,
+  .author_info
+    text-align: center
+
+  .author_info .face
+    margin: 0 auto
+
+  .single_s1 .text_wrap
+    text-align: center
+
+  .single_s1 .text_wrap .dl-horizontal
+    width: 60%
+    margin: 0 auto 30px
+    max-width: 280px
+    min-width: 280px
+
+  .single_s1 .text_wrap .dl-horizontal dd
+    text-align: right
+
+  .modal-header .modal-title
+    font-size: 26px
+
+  .modal-header
+    padding: 25px 30px 17px
+
+  .modal-body
+    padding: 30px 30px 40px
+
+  .modal-body form .form-group label
+    width: 100%
+    margin: 0 0 5px
+
+  .modal-body form .form-group input:not([type="submit"])
+    width: 100%
+
+  .modal-body form .form-group input[type="submit"]
+    margin: 0 auto
+
+@media (max-width:480px)
+  /* home page */
+  .btn_set .my_btn
+    width: 100%
+    margin: 0 0 15px
+
+  .our_courses_list
+    margin: 0
+
+  .our_courses_list .item
+    width: 100%
+    max-width: 370px
+    margin: 0 auto 20px !important
+
+  .hp_s1 .s1_abs
+    padding-bottom: 12%
+    padding-top: 70px
+
+  .hp_s2
+    padding: 10% 0
+
+  .hp_s3
+    padding: 8% 0
+
+  .hp_s4
+    padding: 8% 0 9%
+
+  /* //home page */
+
+  .cours_desc .item .ttl
+    font-size: 28px
+    line-height: 36px
+
+  .single_s1 .text_wrap
+    padding-bottom: 10%
+
+  .single_s2
+    padding: 8% 0
+
+  .single_s3
+    padding: 7% 0 20px
+
+  .hp_s4.single_s4
+    padding: 7% 0 9%
+
+  .hp_s4.single_s4 .btn_set .my_btn
+    margin: 0
+
+  .author_box+.author_box
+    margin-top: 10%
+
+@media (max-width:414px)
+  /* home page */
+  .s1_abs .text_wrap .ttl,
+  .hp_s4 .hp_ttl,
+  .hp_s3 .hp_ttl,
+  .single_s1 .text_wrap .page_ttl
+    font-size: 30px
+    line-height: 42px
+
+  .left_bar .aside_contact
+    padding: 25px 20px
+
+  .left_bar .left_bar_inner
+    padding-top: 25px
+
+  .left_bar .logo
+    margin: 0 0 25px 20px
+
+  .left_bar .scroll
+    max-height: calc(100vh - 330px)
+
+  /* //home page */
+  .modal-body form .form-group input[type="submit"] 
+    width: 100%

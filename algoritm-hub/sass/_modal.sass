@@ -1,0 +1,106 @@
+@import "vars"
+.modal-backdrop
+  background-color: rgba(0, 30, 69, .5)
+
+.modal-backdrop.in
+  opacity: 1
+
+.modal-dialog
+  width: 570px
+  max-width: 90%
+
+.modal-content
+  border: 0
+  box-shadow: 0 5px 20px rgba(0, 0, 0, .15)
+  border-radius: 12px
+  overflow: hidden
+
+.modal-header
+  padding: 25px 60px 17px
+  border: 0
+  text-align: center
+  letter-spacing: 0.01em
+  position: relative
+
+  .modal-title
+    font-family: $charter-b
+    font-size: 30px
+    line-height: 36px
+    margin: 0 0 5px
+
+  p
+    color: rgba(0, 30, 69, .7)
+    font-size: 16px
+    line-height: 20px
+    max-width: 380px
+    margin: 0 auto
+
+  .close
+    margin: 0
+    position: absolute
+    font-family: $charter-b
+    font-size: 35px
+    line-height: 35px
+    color: #f37032
+    display: block
+    top: 6px
+    right: 14px
+    opacity: 1
+    transition: all .3s
+
+    &:hover
+      transform: rotate(90deg)
+
+    span
+      display: block
+
+.modal-body
+  padding: 40px 60px 50px
+  background-color: #f7f7f7
+
+  form
+    .form-group
+      display: flex
+      flex-wrap: wrap
+      align-items: center
+      margin-bottom: 16px
+
+      &:last-child
+        margin: 30px 0 0
+
+      label
+        width: 110px
+        font-size: 18px
+        line-height: 20px
+        letter-spacing: 0.01em
+        font-weight: 400
+        margin: 0
+
+      input:not([type="submit"])
+        width: 320px
+        height: 44px
+        line-height: 40px
+        border: 2px solid $accent
+        background-color: #fff
+        border-radius: 30px
+        padding: 0 20px
+
+      input[type="submit"]
+        display: inline-block
+        color: #001e45
+        font-size: 14px
+        line-height: 14px
+        letter-spacing: 0.04em
+        font-family: $lato-b
+        text-decoration: none
+        text-transform: uppercase
+        border-radius: 30px
+        width: 177px
+        text-align: center
+        padding: 14px 10px 12px 10px
+        border: 2px solid #f37032
+        background-color: rgba(243, 112, 50, 0.1)
+
+        &:hover,
+        &:focus
+          background-color: #f37032

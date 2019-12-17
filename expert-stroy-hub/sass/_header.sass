@@ -1,0 +1,110 @@
+header
+  box-shadow: 0 0 26px rgba(198, 198, 198, .48)
+  position: relative
+
+.head_top
+  border-bottom: 1px solid #e9eaea
+  padding: 13px 0
+
+.head_top_inner
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  align-items: center
+
+  .logo
+    max-width: 145px
+
+.head_contact_wrap
+  display: flex
+  flex-wrap: wrap
+  align-items: center
+  max-width: 80%
+
+  .item
+    display: flex
+    flex-wrap: wrap
+    align-items: center
+
+    + .item
+      margin-left: 65px
+
+    .icon 
+      margin-right: 12px
+
+    .text
+      font-size: 12px
+      line-height: 16px
+      color: #868686
+      margin: 0 0 5px
+
+    a
+      font-size: 16px
+      line-height: 16px
+      white-space: nowrap
+
+      &:hover, &:focus
+        text-decoration: none
+        color: $secondary
+
+.head_menu_wrap .flex_inner
+  display: flex
+  flex-wrap: wrap
+  align-items: center
+  justify-content: space-between
+  padding: 10px 0
+
+
+.desk_menu
+  max-width: 800px
+
+  &.nav>li>a
+    &:focus, &:hover
+      background-color: transparent
+      color: $secondary
+      text-decoration: underline
+  
+  >li
+    >a
+      padding: 0
+      color: $black
+      font-size: 16px
+
+    + li
+      margin-left: 40px
+
+.flex_inner .btn_wrap .head_btn
+  display: inline-block
+  border: 1px solid transparent
+  -webkit-border-radius: 6px
+  border-radius: 6px
+  font-size: 16px
+  line-height: 1
+  white-space: nowrap
+
+  + .head_btn
+    margin-left: 16px
+
+  &.enter_modal
+    border-color: #e0e0e0
+    color: $black
+    padding: 7px 26px
+
+  &.reg_btn
+    border-color: $accent
+    color: #fff
+    padding: 7px 16px
+    background-color: $accent
+
+  &.enter_modal
+    &:hover, &:focus
+      background-color: #e0e0e0
+      text-decoration: none
+
+  &.reg_btn
+    &:hover, &:focus
+      background-color: #fff
+      color: $accent
+      border-color: $accent
+      text-decoration: none
+
