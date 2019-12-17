@@ -1,0 +1,84 @@
+/* HEADER
+
+header
+  top: 0
+  width: 100%
+  padding: 11px 0
+  background: rgba(30, 30, 30, 0.5)
+  height: 80px
+  z-index: 500
+
+.logo
+  float: left
+  margin: 0 60px 0 0
+
+.collaps_menu_area
+  float: left
+  margin-top: 18px
+
+.main_menu
+  > li > a
+    padding: 0
+    color: #fff
+    font-size: 14px
+    line-height: 20px
+    font-weight: 600
+
+  li + li
+    margin-left: 30px
+
+.nav.main_menu > li
+  > a
+    &:focus, &:hover
+      background: transparent
+      color: $fcRed
+
+  &.active > a, &.current-menu-item > a, &.current-post-ancestor > a, &.current-category-ancestor > a, &.current-menu-ancestor > a
+    background: transparent
+    color: $fcRed
+
+.head_contact
+  float: right
+  margin-top: 7px
+
+  .phone_mail
+    display: inline-block
+    width: 160px
+    text-align: right
+    vertical-align: middle
+    margin-right: 22px
+
+    a
+      display: block
+      color: #fff
+      font-size: 14px
+      line-height: 14px
+      font-weight: 600
+
+      &:hover, &:focus
+        text-decoration: none
+        color: $fcRed
+
+      + a
+        margin-top: 12px
+
+  .vk
+    display: inline-block
+    width: 42px
+    height: 42px
+    border-radius: 50%
+    background: #fff
+    text-align: center
+    padding: 8px 0 0
+    vertical-align: middle
+
+    svg
+      width: 24px
+      height: 24px
+      fill: #282828
+
+    &:hover, &:focus
+      background: #282828
+
+    &:hover svg, &:focus svg
+      fill: #fff

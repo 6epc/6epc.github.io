@@ -1,0 +1,52 @@
+::placeholder
+  color: $placeholder_color
+
+.contact_form_wrap
+  border: 2px solid rgba(236, 35, 54, 0.5)
+  padding: 25px 35px 35px 35px
+  width: 400px
+
+  .ttl
+    color: #fff
+    text-align: center
+    font-size: 50px
+    line-height: 60px
+    letter-spacing: 0.05em
+    margin: 0 0 20px
+
+  .form-group
+    margin: 0 0 30px
+
+    &:last-child
+      margin: 0
+
+  form input
+    display: block
+    width: 100%
+    color: #fff
+    background: transparent
+    border: 0
+    border-bottom: 2px solid #fff
+    font-size: 20px
+    line-height: 28px
+    padding: 10px 0
+
+    &[type="submit"]
+      background: $fcRed
+      text-align: center
+      border-radius: 5px
+      border: 2px solid $fcRed
+      text-transform: uppercase
+      font-family: 'BebasNeueBold'
+      letter-spacing: 0.06em
+      font-size: 30px
+      line-height: 30px
+      padding: 16px 0
+
+      &:hover, &:focus
+        background: transparent
+
+.wpcf7-form .ajax-loader
+  position: absolute
+  right: 10px
+  top: 5px

@@ -1,0 +1,173 @@
+.alignright
+  float: right
+  margin: 5px 0 10px 25px
+  clear: both
+
+.alignleft
+  float: left
+  margin: 5px 25px 10px 0
+  clear: both
+
+.aligncenter
+  display: block
+  margin: 0 auto
+
+.alignnone
+  margin: 0 0 10px
+
+.main_text p
+  margin: 0 0 25px
+
+h2, h3, h4, h5, h6
+  clear: both
+  margin: 25px 0
+  font-weight: bold
+  letter-spacing: 0.06em
+
+h2
+  font-size: 28px
+  line-height: 36px
+
+h3
+  font-size: 25px
+  line-height: 33px
+
+h4
+  font-size: 22px
+  line-height: 30px
+
+h5, h6
+  font-size: 19px
+  line-height: 27px
+
+.main_text
+  ul, ol
+    margin: 25px 0
+
+  ul > li, ol > li
+    margin: 0 0 5px
+
+  a
+    text-decoration: underline
+    color: $fcRed
+
+    &:hover, &:focus, &:active
+      text-decoration: none
+
+.post_contet
+  padding: 30px 0
+
+.table
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3)
+  margin: 0 0 25px
+
+  >
+    tbody > tr >
+      td, th
+        border-top: 0
+        font-size: 16px
+        line-height: 22px
+        padding: 13px 20px
+
+    tfoot > tr >
+      td, th
+        border-top: 0
+        font-size: 16px
+        line-height: 22px
+        padding: 13px 20px
+
+    thead > tr
+      >
+        td
+          border-top: 0
+          font-size: 16px
+          line-height: 22px
+          padding: 13px 20px
+
+        th
+          border-top: 0
+          font-size: 16px
+          line-height: 22px
+          padding: 13px 20px
+          border-bottom: 1px solid rgba(255, 255, 255, 0.3)
+          font-size: 22px
+          font-weight: bold
+
+        td
+          border-bottom: 1px solid rgba(255, 255, 255, 0.3)
+          font-size: 22px
+          font-weight: bold
+
+      &:hover
+        background: rgba(255, 255, 255, 0.3)
+
+    tbody > tr
+      &:hover
+        background: rgba(255, 255, 255, 0.3)
+
+      > td:last-child
+        text-align: right
+
+    thead > tr >
+      th:last-child, td:last-child
+        text-align: right
+
+/* portfolio block
+
+.portfolio_carousel_block
+  padding: 30px 0 180px
+  border-top: 1px solid rgba(255, 255, 255, 0.3)
+
+  .ttl
+    font-size: 40px
+    line-height: 45px
+    letter-spacing: 0.06em
+    margin: 0 0 50px
+
+.portfolio_carousel_wrap
+  padding: 0 70px
+  position: relative
+
+.portfolio_carousel li
+  cursor: pointer
+
+  img
+    border: 2px solid $fcRed
+
+.portfolio_carousel_next, .portfolio_carousel_prev
+  position: absolute
+  width: 34px
+  height: 35px
+  z-index: 20
+  top: 50%
+  margin-top: -18px
+  cursor: pointer
+  transition: all .3s ease
+  -webkit-transition: all .3s ease
+  -moz-transition: all .3s ease
+  -ms-transition: all .3s ease
+
+.portfolio_carousel_next
+  background: url(img/slider_next_w.png) no-repeat center
+  right: 0
+
+.portfolio_carousel_prev
+  background: url(img/slider_prev_w.png) no-repeat center
+  left: 0
+
+.portfolio_carousel_next:hover
+  background: url(img/slider_next_r.png) no-repeat center
+
+.portfolio_carousel_prev:hover
+  background: url(img/slider_prev_r.png) no-repeat center
+
+.navbar-toggle
+  .icon-bar
+    background: #fff
+
+  margin: 0
+  border: 1px solid #fff
+  float: none
+
+.navbar-collapse
+  margin: 20px 0 0

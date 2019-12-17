@@ -1,0 +1,227 @@
+/* HOME PAGE
+/* hp slide1
+
+.hp_slide1
+  background: url(img/hp_slide1_bg.jpg) no-repeat center
+  background-size: cover
+  padding-bottom: 255px
+
+.slide1
+  padding-top: 140px
+
+.hp_slide1
+  .ttl
+    color: #fff
+    font-size: 65px
+    line-height: 65px
+    letter-spacing: 0.06em
+    margin: 0 0 40px
+
+  .sub_ttl
+    color: #fff
+    font-size: 22px
+    line-height: 36px
+    letter-spacing: 0.06em
+    margin: 0 0 35px
+
+.car_select_btn_toggle
+  display: inline-block
+  color: $fcRed
+  position: relative
+  font-size: 18px
+  padding: 0 20px 7px 0
+  letter-spacing: 0.06em
+  background: url(img/arrow_down.png) no-repeat right 6px
+
+  &:after
+    content: ""
+    transition: all .3s ease
+    position: absolute
+    bottom: 0
+    left: 0
+    right: 0
+    border-bottom: 1px dashed $fcRed
+
+  &:hover, &:focus
+    text-decoration: none
+    opacity: .7
+    color: $fcRed
+
+  &:hover:after, &:focus:after
+    opacity: 0
+
+.anchor_menu
+  margin: 0
+  padding: 0
+  list-style: none
+
+/* car selection
+
+.car_selection_toggle
+  background: #1e1e1e
+  width: 100%
+  z-index: 500
+  height: 0
+  transition: all .3s ease
+  pointer-events: none
+  padding: 30px 0 40px
+  opacity: 0
+  position: absolute
+
+  &.active
+    opacity: 1
+    pointer-events: all
+    height: auto
+    position: static
+
+  .selection_ttl
+    color: #fff
+    font-size: 30px
+    line-height: 36px
+    letter-spacing: 0.06em
+    margin: 0 0 40px
+    padding-right: 40px
+
+  .close_btn
+    position: absolute
+    right: 0
+    top: 0
+    width: 20px
+    height: 21px
+    background: url(img/close_btn.png) no-repeat center
+    cursor: pointer
+    transition: all .3s ease
+
+    &:hover
+      transform: rotate(90deg)
+      background: url(img/close_btn_hover.png) no-repeat center
+
+.car_selection_colum
+  width: 20%
+  float: left
+
+.car_selection_colum_list:after
+  content: ""
+  width: 100%
+  display: table
+  clear: both
+
+.car_selection_colum
+  + .car_selection_colum
+    padding-left: 50px
+
+  .selection_item
+    margin: 0 0 35px
+
+    .letter
+      display: inline-block
+      vertical-align: top
+      font-size: 18px
+      font-weight: 600
+      color: $fcRed
+      width: 20px
+      margin-right: 10px
+
+    .car_brand_list
+      display: inline-block
+      vertical-align: top
+      font-weight: 600
+      width: 100px
+      padding-top: 3px
+
+      a
+        color: #fff
+        text-decoration: underline
+        font-size: 14px
+        line-height: 20px
+        display: block
+        margin: 0 0 8px
+        letter-spacing: 0.08em
+
+        &:last-child
+          margin: 0
+
+    &:last-child
+      margin: 0
+
+    .car_brand_list a:hover
+      text-decoration: none
+
+/* hp_slide2
+
+.hp_slide2
+  background: url(img/hp_slide2_bg.jpg) no-repeat center
+  background-size: cover
+  padding: 60px 0 75px
+
+  .ttl
+    color: #fff
+    font-size: 50px
+    line-height: 60px
+    letter-spacing: 0.06em
+    margin: 0 0 35px
+
+.text_wrap
+  width: 50%
+
+.hp_slide2 .text
+  color: #fff
+  font-size: 20px
+  line-height: 40px
+  font-weight: 600
+  letter-spacing: 0.06em
+
+  p
+    margin: 0 0 20px
+
+    &:last-child
+      margin: 0
+
+/* hp_slide3
+
+.hp_slide3
+  background: url(img/hp_slide3_bg.jpg) no-repeat center
+  background-size: cover
+  padding: 35px 0 40px
+
+.benefit_item
+  margin: 0 0 30px
+
+  &:last-child
+    margin: 0
+
+.hp_slide3
+  .benefit_item_ttl
+    color: #fff
+    font-size: 40px
+    line-height: 50px
+    letter-spacing: 0.06em
+    margin: 0 0 15px
+
+    span
+      display: inline-block
+      letter-spacing: -0.02em
+      margin-right: 10px
+
+  .text_wrap.right
+    float: right
+
+  .text
+    color: #fff
+    font-size: 18px
+    line-height: 30px
+    font-weight: 600
+    letter-spacing: 0.06em
+
+    p
+      margin: 0
+
+/* hp_slide4
+
+.hp_slide4
+  background: url(img/hp_slide4_bg.jpg) no-repeat center
+  background-size: cover
+  padding-top: 70px
+
+.footer_padd
+  padding-bottom: 170px
