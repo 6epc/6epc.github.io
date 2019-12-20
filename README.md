@@ -4,7 +4,7 @@
 This repository was created to store and demonstrate my work.
 
 Algoritm:
-https://6epc.github.io/algoritm-hub/
+https://6epc.github.io/algoritm-hub/ <br>
 https://6epc.github.io/algoritm-hub/single.html
 
 ********************************************************************************
