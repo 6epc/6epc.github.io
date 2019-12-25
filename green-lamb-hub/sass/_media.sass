@@ -1,0 +1,521 @@
+/* RESPPONSIVE STYLES
+
+@media (max-width: 1200px)
+  .collaps_menu_area
+    height: 54px
+
+  .slide_wrap
+    height: auto
+
+  header
+    padding-top: 54px
+    border-bottom: 1px solid #ccc
+
+  .header_bottom
+    position: fixed
+    top: 0
+    width: 100%
+    z-index: 500
+    display: block
+    height: auto
+
+  .cat_loop_wrap.simple_cat_loop
+    width: auto
+    margin: 0 -15px
+
+    .cat_loop_item
+      width: calc(100%/2 - 30px)
+
+  .page-template-excursions-tours-page
+    .cat_loop_wrap .cat_loop_item
+      width: calc(100%/2 - 30px)
+
+    .cat_loop_item .cat_loop_item_meta
+      .tour_order_btn
+        position: static
+
+      .excerpt
+        margin-bottom: 10px
+        max-height: none
+
+  .search_widget form
+    position: relative
+
+    input
+      &[type="search"]
+        width: 100%
+        padding-right: 45px
+
+      &[type="submit"]
+        position: absolute
+        right: 0
+
+  .filtr_list_wrap.cat_filtr .filtr_list > li
+    margin-right: 20px
+
+  #wpadminbar
+    display: none
+
+  body.error404 .wrap_for_mmenu .page404_content_wrap
+    padding: 70px 0
+
+@media (min-width: 992px) and (max-width: 1200px)
+  .cat_loop_wrap
+    max-width: 790px
+    margin: 0 auto
+
+  .social_widget .social_btns
+    a
+      width: 100%
+
+    .fb
+      margin-top: 20px
+
+  .single_tour_pricing.fixed
+    width: 293px
+
+@media (max-width: 992px)
+  .header_top_inner .header_contact_wrap
+    -webkit-box-flex: 1
+    -webkit-flex: 1
+    -ms-flex: 1
+    flex: 1
+    margin-left: 20px
+
+  .slide_wrap .ttl, .hp_fw_last_s .ttl, .single_tour_thumb .singl_page_ttl
+    font-size: 50px
+    line-height: 50px
+    margin-bottom: 20px
+
+  .hp_fw_s .lSSlideOuter .lSPager.lSpg
+    bottom: 30px
+
+  .slide_wrap .text
+    margin-bottom: 30px
+
+  .header_contact_wrap .contact_wrap_top
+    -webkit-box-pack: end
+    -webkit-justify-content: flex-end
+    -ms-flex-pack: end
+    justify-content: flex-end
+
+    .text .email
+      margin: 0 0 10px 14px
+
+  .filtr_list_wrap .filtr_list > li
+    margin-right: 30px
+
+  .cat_loop_wrap .cat_loop_item, .benefits_list .benefit_item
+    width: -webkit-calc(100%/2 - 30px)
+    width: calc(100%/2 - 30px)
+    padding-right: 0
+
+  .hp_fw_last_s
+    padding: 100px 0 120px
+
+  .social_widget
+    max-width: 360px
+
+  .right_aside .widget
+    width: 45%
+    margin: 0 2% 40px
+    display: inline-block
+    vertical-align: top
+
+    aside.widget
+      width: 100%
+
+  .social_widget .social_btns
+    a
+      width: 100%
+
+    .fb
+      margin-top: 20px
+
+  .single_tour_thumb
+    min-height: 500px
+    padding: 120px 0 130px
+
+  .page404_content_wrap
+    text-align: center
+
+@media (max-width: 767px)
+  .cat_loop_item .cat_loop_item_meta .excerpt
+    max-height: none !important
+    margin: 0 0 10px
+
+  .simple_cat_loop .cat_loop_item .cat_loop_item_meta .excerpt
+    margin: 0
+
+  .cat_loop_item .cat_loop_item_meta .tour_order_btn
+    position: static
+    width: 100%
+    text-align: center
+
+  .modal-dialog
+    margin: 40px auto
+
+  .form_style textarea
+    height: 130px
+
+  .price_tabs
+    .panel-heading
+      padding: 0
+
+      .panel-title > a
+        padding: 10px 15px
+        color: #fff
+        background-color: $fc_green
+        display: block
+        text-transform: uppercase
+
+        &.collapsed
+          background: #f5f5f5
+          color: #333
+          padding: 10px 15px
+          display: block
+
+    .panel-body ul
+      list-style: none
+      padding: 0
+      margin: 0 0 25px
+
+      > li
+        padding-left: 35px
+        position: relative
+        display: table
+        font-size: 18px
+        line-height: 30px
+        margin-bottom: 8px
+
+        &::before
+          content: ""
+          width: 16px
+          height: 16px
+          position: absolute
+          top: 7px
+          z-index: 10
+          left: 10px
+          background: url(img/marker.png)
+
+  .cta_form_wrap
+    padding: 40px 15px
+
+  .wpcf7-form-control-wrap
+    width: 100%
+
+  #info_slider_overlay .page_title_tour
+    font-size: 32px
+    line-height: 36px
+
+    h1
+      font-size: 32px
+      line-height: 36px
+
+  div.single_tour_thumb
+    min-height: 400px
+    padding: 75px 0 130px
+
+  .tour_features
+    font-size: 18px
+    line-height: 24px
+
+    span
+      display: block
+
+  .cf7_tour
+    width: 90%
+    margin-left: 5%
+
+    input
+      &[type="text"]
+        width: 100%
+        margin-bottom: 8px
+
+      &[type=submit]
+        width: 100%
+
+  .footer_call__container
+    width: 100%
+    padding: 20px
+    flex-flow: column nowrap
+
+  .fixed-txt
+    display: none
+    width: 100%
+    padding-right: 0
+
+  .middle
+    line-height: 24px
+
+  .fixed-form
+    width: 100%
+    text-align: left
+
+  #fixed-footer-form
+    display: block
+    width: 100%
+
+    input
+      &[type="text"]
+        width: 70%
+
+      &[type=submit]
+        width: 25%
+
+  span.error
+    top: 29px
+    font-size: 11px
+    font-weight: 400
+    color: red
+    padding: 0
+    left: 0
+    width: 320px
+
+  div
+    &#single_post_cf7 form.wpcf7-form input
+      &[type="text"], &[type="tel"], &[type="email"]
+        width: 100%
+        margin-bottom: 8px
+
+    &.cta_form_wrap.text-center form.wpcf7-form input
+      &[type="text"], &[type="tel"], &[type="email"]
+        width: 100%
+        margin-bottom: 8px
+
+    &#single_post_cf7 form.wpcf7-form input[type=submit], &.cta_form_wrap.text-center form.wpcf7-form input[type=submit]
+      width: 100%
+
+  .cf7_tour input[type="email"]
+    width: 100%
+    margin-bottom: 4px
+
+  .sidebar_tour .wpcf7-form-control-wrap, div.cta_form_wrap.text-center form.wpcf7-form textarea
+    width: 100%
+
+  .price_tabs
+    margin-left: -15px
+    margin-right: -15px
+    margin-bottom: 0
+
+  aside .price_tabs
+    padding: 16px 15px 20px
+
+  .sidebar_tour
+    width: 100%
+    margin: 0
+
+  .content_inner
+    padding-bottom: 8px
+
+@media (max-width: 670px)
+  .tour_meta_info .tour_meta_info_text span
+    display: block
+
+  .slide_wrap
+    min-height: 560px
+
+    .ttl
+      font-size: 40px
+      line-height: 40px
+
+  .hp_fw_last_s .ttl, .single_tour_thumb .singl_page_ttl
+    font-size: 40px
+    line-height: 40px
+
+  .slide_wrap .text
+    font-size: 20px
+    line-height: 28px
+
+  .header_contact_wrap .contact_wrap_top .text
+    text-align: right
+
+  .cat_loop_wrap
+    .cat_loop_item, &.simple_cat_loop .cat_loop_item
+      width: 100%
+      margin: 0 auto 40px
+
+      .thumb img
+        width: 100%
+
+  .page-template-excursions-tours-page .cat_loop_wrap .cat_loop_item
+    width: 100%
+    margin: 0 auto 40px
+
+  .cat_loop_wrap
+    margin: 0
+
+    &.simple_cat_loop
+      margin: 0
+
+  .filtr_list_wrap .filtr_list
+    display: block
+
+    > li
+      margin: 0
+      text-align: center
+
+      > a
+        display: inline-block
+
+  .benefits_list
+    margin: 0
+
+    .benefit_item
+      width: 100%
+      margin: 0 0 40px
+
+  .right_aside .widget
+    width: 100%
+    display: block
+    margin: 0 0 40px
+
+  .social_widget
+    margin: 0 auto
+
+  .widget_text
+    text-align: center
+
+  .filtr_list_wrap.cat_filtr .filtr_list > li
+    margin-right: 0
+    width: 100%
+
+  .last_post_carousel_wrap, .search_widget
+    max-width: 360px
+    margin: 0 auto
+
+// @media (min-width: 480px) and (max-width: 670px)
+//   .container
+//     width: 480px
+
+
+@media (max-width: 480px)
+  // .container
+  //   width: 414px
+
+  .hp_tour_s
+    padding-top: 30px
+
+  .interests_s .cat_loop_item
+    text-align: center
+    padding-top: 25px
+
+  .tour_meta_info
+    display: block
+
+    .tour_meta_info_text
+      width: 100%
+      text-align: center
+      margin-bottom: 10px
+
+      span
+        display: inline-block
+
+    .tour_meta_map
+      max-width: 100%
+      text-align: center
+
+  .slide_wrap .ttl, .hp_fw_last_s .ttl
+    font-size: 35px
+
+  .header_top_inner
+    display: block
+    text-align: center
+
+    .header_contact_wrap
+      margin: 15px 0 0
+
+  .header_contact_wrap
+    .contact_wrap_top
+      justify-content: center
+
+    .contact_wrap_bottom, .contact_wrap_top .text
+      text-align: center
+      margin-bottom: 15px
+
+  .slide_wrap
+    min-height: 1px
+    padding: 40px 0
+
+  .hp_fw_s .lSSlideOuter .lSPager.lSpg
+    bottom: 10px
+    position: static
+    transform: translate(0)
+
+    li a
+      background: #ccc
+
+    > li
+      &:hover a, &:focus a, &.active a
+        background: $fc_green
+
+  .modal-dialog
+    max-width: 90%
+
+    .modal-content
+      .modal-header
+        padding: 30px 15px 25px
+
+      .modal-body
+        padding: 0 15px 30px
+
+  .right_aside
+    padding-top: 20px
+
+  .main_text a
+    word-wrap: break-word
+
+  .single_tour_thumb .tour_meta_info
+    width: auto
+    left: 0
+    right: 0
+
+  body.error404 .wrap_for_mmenu .page404_content_wrap
+    padding: 40px 0
+
+@media (max-width: 414px)
+
+  .green_btn
+    width: 100%
+    padding: 10px
+    font-size: 15px
+    text-align: center
+
+  .interests_s .cat_loop_item
+    padding-top: 0
+
+  .replay_carousel li .ttl, .hp_fw_last_s .sub_ttl, .slide_wrap .text
+    font-size: 18px
+    line-height: 26px
+
+  .lSSlideOuter .lSPager.lSpg
+    margin-top: 20px !important
+
+  .hp_fw_last_s
+    padding: 40px 0 50px
+
+    .sub_ttl
+      margin-bottom: 35px
+
+  .slide_wrap .ttl, .hp_fw_last_s .ttl, .cat_page_ttl
+    font-size: 30px
+    line-height: 36px
+
+  .header_top
+    padding: 30px 0 15px
+
+    .logo
+      margin-bottom: 15px
+
+  .price_tabs
+    padding: 15px
+
+  .wpmfc_cab_b
+    padding: 20px !important
+
+  .likely
+    text-align: center
+
+  .share_btn
+    width: 100%
+    margin: 0 0 15px

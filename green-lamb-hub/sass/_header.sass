@@ -1,0 +1,204 @@
+/* header top styles */
+
+.header_top
+  padding: 50px 0 40px
+
+  &_inner
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+    align-items: center
+
+.header_contact_wrap .contact_wrap_top
+  display: flex
+  flex-wrap: wrap
+  align-items: center
+
+  .text
+    font-weight: bold
+    font-size: 20px
+
+    .phone
+      color: $fc_green
+
+    .email
+      color: $accent
+      display: inline-block
+      margin: 0 16px 0 14px
+
+      &:hover
+        text-decoration: none
+        color: $fc_green
+
+  .soc_list
+    margin: 0
+    height: 30px
+    >li
+      padding: 0
+      margin: 0 1px
+      >a
+        display: block
+        width: 30px
+        height: 30px
+        background-image: url('img/soc_sprite.png')
+        background-repeat: no-repeat
+        transition: top 1s ease
+        position: relative
+
+        &:hover
+          top: 1px
+
+.soc_list>.fb>a 
+  background-position: -0px -0px
+
+.soc_list>.fb:hover>a
+  background-position: -30px -0px
+
+
+.soc_list>.instagram>a
+  background-position: -60px -0px
+
+.soc_list>.instagram:hover>a
+  background-position: -0px -30px
+
+.soc_list>.skype>a
+  background-position: -30px -30px
+
+.soc_list>.skype:hover>a
+  background-position: -60px -30px
+
+.soc_list>.viber>a
+  background-position: -0px -60px
+
+.soc_list>.viber:hover>a
+  background-position: -30px -60px
+
+.soc_list>.vk>a
+  background-position: -60px -60px
+
+.soc_list>.vk:hover>a
+  background-position: -0px -90px
+
+.soc_list>.watsapp>a
+  background-position: -30px -90px
+
+.soc_list>.watsapp:hover>a
+  background-position: -60px -90px
+
+.soc_list>.youtube>a
+  background-position: -0px -120px
+
+.soc_list>.youtube:hover>a
+  background-position: -30px -120px
+
+.header_contact_wrap .contact_wrap_bottom
+  font-size: 16px
+  line-height: 22px
+  margin-top: 12px
+  text-align: right
+
+/* header bootom styles */
+
+.header_bottom
+  background-color: #F3F3F3
+  height: 78px
+  display: flex
+  align-items: center
+
+/* main menu */
+.main_menu
+  >li
+    >a
+      padding: 0 10px
+      color: #363636
+      font-size: 14px
+      font-weight: bold
+      line-height: 20px
+      text-transform: uppercase
+
+      &:hover
+        color: $fc_green
+        background-color: transparent
+
+    &:first-child
+      >a
+        padding-left: 0
+
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover,
+.nav.main_menu>li>a:focus,
+.nav.main_menu>li>a:hover,
+.nav.main_menu>li.active>a,
+.nav.main_menu>li.current-menu-item>a,
+.nav.main_menu>li.current-post-ancestor>a,
+.nav.main_menu>li.current-category-ancestor>a,
+.nav.main_menu>li.current-menu-ancestor>a
+  background-color: transparent
+  color: $fc_green
+
+/* dropdown-menu  */
+.dropdown-menu
+  top: 49px
+  padding: 0
+  border: 0
+  box-shadow: none
+  left: 50%
+  transform: translatex(-50%)
+  >li
+    box-shadow: 0 -1px 0 rgba(183, 183, 182, .44)
+
+    &:hover
+      a
+        background-color: #f3f3f3
+        color: $fc_green
+
+  >li>a
+    padding: 14px 20px
+    color: #363636
+    font-size: 12px
+    font-weight: bold
+    line-height: 18px
+    text-transform: uppercase
+    background-color: #dbdbdb
+
+  &:before
+    content: ""
+    width: 0
+    height: 0
+    border-bottom: 13px solid #dbdbdb
+    border-left: 15px solid transparent
+    border-right: 15px solid transparent
+    bottom: 100%
+    position: absolute
+    left: 50%
+    margin-left: -15px
+
+.dropdown-menu>.active>a,
+.dropdown-menu>.active>a:focus,
+.dropdown-menu>.active>a:hover
+  background-color: #f3f3f3
+  color: $fc_green
+
+/* mm menu */
+.mm-slideout
+  z-index: auto
+
+.mm-listview>li>a,
+.mm-listview>li>span,
+.mm-menu.mm-theme-dark .mm-navbar a,
+.mm-menu.mm-theme-dark .mm-navbar>*
+  color: #fff
+
+.mm-menu.mm-theme-dark
+  background-color: $fc_green
+
+
+.mm-listview>li:not(.mm-divider):after
+  left: 0
+
+div.wpcf7 .ajax-loader
+  position: absolute
+
+.panel-group
+  margin-bottom: 0

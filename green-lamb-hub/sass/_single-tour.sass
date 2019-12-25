@@ -1,0 +1,181 @@
+/* single tour page */
+.single_tour_thumb
+  min-height: 600px
+  padding: 200px 0 130px
+  position: relative
+  background-size: cover
+
+  .singl_page_ttl
+    color: #fff
+    font-size: 72px
+    line-height: 80px
+    margin: 0
+
+  .tour_meta_info
+    position: absolute
+    bottom: 0
+    width: 490px
+    font-size: 18px
+    line-height: 28px
+    padding: 15px 30px 15px 40px
+
+.attention
+  padding: 20px 35px
+  margin: 70px 0 40px
+  clear: both
+  position: relative
+  border-radius: 7px
+
+  &::before
+    content: ""
+    position: absolute
+    left: 35px
+
+.attention.green
+  border: 2px solid $fc_green
+  color: $fc_green
+
+  &::before
+    background: url(img/bv-1.png) no-repeat center
+    width: 99px
+    height: 55px
+    bottom: auto
+    top: -38px
+
+.attention.red
+  border: 2px solid #d13939
+  color: #d13939
+
+  &::before
+    background: url(img/bv-2.png) no-repeat center
+    width: 98px
+    height: 55px
+    bottom: auto
+    top: -37px
+
+.attention.grey
+  border: 2px solid #818181
+  color: #818181
+
+  &::before
+    background: url(img/bv-3.png) no-repeat center
+    width: 65px
+    height: 55px
+    bottom: auto
+    top: -35px
+
+/* price tabs */
+.price_tabs
+  background-color: #f3f3f3
+  padding: 20px 35px 40px 35px
+  margin-bottom: 60px
+
+  .nav-tabs
+    border: 0
+    text-align: center
+
+.nav-tabs>li
+  display: inline-block
+  float: none
+  margin: 0 90px 0 0
+
+  &:last-child
+    margin-right: 0
+
+.nav-tabs>li>a
+  position: relative
+  border: 0
+  color: #363636
+  font-size: 16px
+  line-height: 20px
+  padding: 29px 10px
+  font-weight: bold
+  text-transform: uppercase
+  margin: 0
+
+  &::before
+    content: ""
+    left: 0
+    right: 0
+    position: absolute
+    bottom: 0
+    height: 6px
+    background-color: transparent
+    transition: background-color .3s ease
+    pointer-events: none
+
+.nav-tabs>li:hover>a,
+.nav-tabs>li:focus>a,
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover
+  border: 0
+  background: transparent
+
+.nav-tabs>li:hover>a:before,
+.nav-tabs>li:focus>a:before,
+.nav-tabs>li.active>a:before,
+.nav-tabs>li.active>a:focus:before,
+.nav-tabs>li.active>a:hover:before
+  background: $fc_green
+
+.tab-pane.main_text
+  margin-bottom: 0
+  padding-top: 35px
+
+/* CTA block */
+.cta_form_wrap
+  background: url(img/cta_bg.png) no-repeat center
+  background-size: cover
+  padding: 70px 0
+  margin-bottom: 60px
+  color: #fff
+
+  .ttl
+    font-size: 30px
+    line-height: 30px
+    margin-bottom: 25px
+
+  .sub_ttl
+    font-size: 18px
+    line-height: 28px
+    margin-bottom: 25px
+
+  .tour_order_btn
+    width: 226px
+
+/* gallery */
+.single_tour_gallery
+  margin-bottom: 60px
+
+/* share btns */
+.share_btn
+  width: 180px
+  height: 40px
+  line-height: 40px
+  color: #fff
+  text-align: center
+  font-size: 14px
+  display: inline-block
+  text-decoration: none
+  border-radius: 7px
+  margin-bottom: 15px
+
+.share_btn.fb
+  margin-right: 13px
+  background-color: #4867aa
+
+  &:hover,
+  &:focus
+    background-color: #355089
+    text-decoration: none
+    color: #fff
+
+.share_btn.vk
+  background-color: #4c75a3
+
+  &:hover,
+  &:focus
+    background-color: #6888ad
+    text-decoration: none
+    color: #fff

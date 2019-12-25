@@ -1,0 +1,37 @@
+::placeholder
+  color: $placeholder_color
+
+.form_style input,
+.form_style textarea
+  width: 100%
+  display: block
+  border: 0
+  color: #fff
+  background-color: #54d156
+  border-radius: 7px
+  font-size: 14px
+  line-height: 20px
+  padding: 10px 15px
+  transition: box-shadow .3s
+  
+  &:focus,
+  &:hover
+    box-shadow: inset 1px 1px rgba(0, 0, 0, .3), -1px -1px rgba(0, 0, 0, .3)
+
+
+.form_style input[type="submit"]
+  background-color: #fff
+  text-transform: uppercase
+  font-weight: bold
+  color: #363636
+  font-size: 18px
+  line-height: 30px
+  letter-spacing: .05em
+  transition: all .3s ease
+
+  &:hover,
+  &:focus
+    -webkit-box-shadow: none
+    box-shadow: none
+    background-color: #0e6610
+    color: #fff

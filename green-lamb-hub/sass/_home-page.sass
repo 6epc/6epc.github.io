@@ -1,0 +1,484 @@
+/* full width home page carousel */
+
+.hp_fw_carousel li
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+
+.slide_wrap
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  min-height: 600px
+  height: 600px
+  color: #fff
+
+  span
+    display: block
+
+  .ttl
+    font-size: 72px
+    line-height: 70px
+    margin-bottom: 40px
+
+  .text
+    font-size: 24px
+    line-height: 32px
+    margin-bottom: 70px
+    max-width: 1140px
+
+    span
+      margin-bottom: 20px
+
+      &:last-child
+        margin-bottom: 0
+
+.green_btn
+  display: inline-block
+  background-color: $fc_green
+  color: #fff
+  text-decoration: none
+  letter-spacing: .05em
+  padding: 10px 25px
+  -webkit-border-radius: 7px
+  border-radius: 7px
+
+  &:hover,
+  &:focus
+    background-color: #0e6610
+    text-decoration: none
+    color: #fff
+
+.hp_fw_s
+  position: relative
+
+  .lSSlideOuter .lSPager.lSpg
+    position: absolute
+    left: 50%
+    transform: translatex(-50%)
+    margin: 0 !important
+    bottom: 50px
+    z-index: 100
+
+    li a
+      background-color: #fff
+
+.lSSlideOuter .lSPager.lSpg
+  margin-top: 40px !important
+
+.lSSlideOuter .lSPager.lSpg>li
+  padding: 0 8px
+
+  a
+    width: 30px
+    height: 6px
+    background-color: #b7b7b6
+
+.lSSlideOuter .lSPager.lSpg>li:hover a,
+.lSSlideOuter .lSPager.lSpg>li:focus a,
+.lSSlideOuter .lSPager.lSpg>li.active a
+  background-color: $fc_green
+
+/* home page tour section */
+.hp_tour_s
+  padding: 70px 0 20px
+
+.hp_main_ttl
+  text-align: center
+  font-weight: bold
+  color: #363636
+  font-size: 30px
+  line-height: 30px
+  margin-bottom: 25px
+
+.hp_main_ttl.hp_main_ttl_mb
+  margin-bottom: 40px
+
+.hp_main_subttl
+  text-align: center
+  margin-bottom: 25px
+
+.filtr_list_wrap
+  background-color: #F3F3F3
+  display: flex
+  align-items: center
+  margin-bottom: 20px
+
+  .filtr_list
+    list-style: none
+    padding: 0
+    margin: 0
+    width: 100%
+    display: flex
+    justify-content: center
+
+    >li
+      position: relative
+      margin-right: 80px
+
+      &:last-child
+        margin-right: 0
+
+      &:hover
+        >a
+          color: $fc_green
+          text-decoration: none
+
+        &:before
+          background-color: $fc_green
+
+      &.active
+        >a
+          color: $fc_green
+          text-decoration: none
+
+        &:before
+          background-color: $fc_green
+
+      &:before
+        content: ""
+        left: 0
+        right: 0
+        position: absolute
+        bottom: 0
+        height: 6px
+        background-color: transparent
+        transition: background-color .3s ease
+        pointer-events: none
+
+      >a
+        color: #363636
+        font-size: 16px
+        font-weight: bold
+        line-height: 20px
+        text-transform: uppercase
+        display: flex
+        align-items: center
+        padding: 29px 0
+
+        &:hover
+          text-decoration: none
+
+        &:focus
+          text-decoration: none
+
+/* category loop styles */
+.cat_loop_wrap
+  margin: 0 -15px
+  display: flex
+  flex-wrap: wrap
+
+  .cat_loop_item
+    margin: 0 15px 30px
+    width: 360px
+
+.cat_loop_item
+  background-color: #f3f3f3
+
+  .cat_loop_item_meta
+    padding: 20px 23px 35px 23px
+    min-height: 290px
+    position: relative
+
+    .post_tll
+      color: #363636
+      font-size: 22px
+      line-height: 30px
+      margin-bottom: 10px
+      display: inline-block
+
+      &:hover
+        color: $fc_green
+
+    .cat_icons
+      margin: 0 0 15px
+
+      li
+        padding: 0
+        margin-right: 7px
+
+    .excerpt
+      font-size: 16px
+      line-height: 28px
+      max-height: 82px
+      overflow: hidden
+
+      a:hover
+        text-decoration: none
+        color: #0e6610
+
+    .tour_order_btn
+      bottom: 30px
+      position: absolute
+
+.tour_meta_info
+  background-color: $fc_green
+  color: #fff
+  font-size: 14px
+  line-height: 20px
+  padding: 10px 18px
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+  p
+    margin: 0
+
+.hp_about_s
+  padding: 20px 0 30px
+
+/* Main text styles */
+.alignright
+  float: right
+  margin: 5px 0 10px 25px
+  clear: both
+
+.alignleft
+  float: left
+  margin: 5px 25px 10px 0
+  clear: both
+
+.aligncenter
+  display: block
+  margin: 0 auto 10px
+
+.alignnone
+  margin: 0 0 10px
+
+/* lists in content */
+.main_text ul
+  list-style: none
+  padding: 0
+  margin: 0 0 25px
+
+.main_text ul>li
+  padding-left: 35px
+  position: relative
+  display: table
+  font-size: 18px
+  line-height: 30px
+  margin-bottom: 8px
+
+.main_text ul>li:last-child
+  margin-bottom: 0
+
+.main_text ul>li:before
+  content: ""
+  width: 16px
+  height: 16px
+  position: absolute
+  top: 7px
+  z-index: 10
+  left: 10px
+  background: url(img/marker.png)
+
+.main_text ol
+  list-style: none
+  padding: 0
+  margin: 0 0 25px
+  counter-reset: item
+
+.main_text ol>li
+  position: relative
+  padding-left: 35px
+  display: table
+  margin-bottom: 8px
+  font-size: 18px
+  line-height: 30px
+
+.main_text ol>li:last-child
+  margin-bottom: 0
+
+.main_text ol ol li
+  padding-left: 4.3rem
+
+.main_text ol ol ol li
+  padding-left: 6rem
+
+.main_text ol ol ol ol li
+  padding-left: 7rem
+
+.main_text ol>li:before
+  content: counter(item)"."
+  counter-increment: item
+  font-size: 18px
+  line-height: 30px
+  padding: 0
+  position: absolute
+  left: 10px
+  top: 0
+  color: $fc_green
+
+.main_text ol ol li:before
+  content: counters(item, ".") "."
+  counter-increment: item
+
+.main_text table ul li,
+.main_text table ol li 
+  display: inherit
+
+.main_text ol ul,
+.main_text ol ol,
+.main_text ul ol,
+.main_text ul ul
+  margin: 10px 0 5px
+
+.main_text ol ul li:last-child,
+.main_text ol ol li:last-child,
+.main_text ul ol li:last-child,
+.main_text ul ul li:last-child
+  margin: 0
+
+.main_text ul ol li:before
+  background-image: none
+
+.main_text ul ol li:before
+  width: auto
+  height: auto
+
+.main_text ol ul li:before
+  content: ""
+  counter-increment: none
+
+.main_text ol ul ol li:before
+  content: counter(item)"."
+  counter-increment: item
+
+.main_text ol ul ol li
+  padding-left: 2.3rem
+/* END LISTS */
+
+.main_text
+  margin: 0 0 40px
+
+.main_text p
+  margin-bottom: 20px
+
+.main_text p:last-child
+  margin: 0
+
+.main_text a
+  text-decoration: underline
+
+  &:hover
+    text-decoration: underline
+
+/* Benefits section */
+.hp_benefits_s
+  padding: 65px 0 40px
+  background-color: #f3f3f3
+
+.benefits_list
+  margin: 0 -15px
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+
+  .benefit_item
+    margin: 0 15px 40px
+    width: calc(100%/3 - 30px)
+    padding-right: 30px
+
+    &:nth-child(4) .benefit_item_ttl
+      color: #9e0b0f
+
+    .number
+      font-weight: bold
+      font-size: 36px
+      line-height: 30px
+      margin-bottom: 14px
+      color: rgba(111, 111, 110, .5)
+
+    &_ttl
+      color: $fc_green
+      font-weight: bold
+      text-transform: uppercase
+      position: relative
+      font-size: 22px
+      line-height: 28px
+      padding-bottom: 25px
+      margin-bottom: 16px
+
+      &::before
+        content: ""
+        height: 6px
+        width: 30px
+        left: 0
+        bottom: 0
+        position: absolute
+        background-color: #b1b1b0
+        -webkit-border-radius: 3px
+        border-radius: 3px
+
+    &_txt
+      font-size: 16px
+      line-height: 22px
+
+      p
+        margin-bottom: 15px
+
+        &:last-child
+          margin-bottom: 0
+
+/* interests section */
+.interests_s
+  padding: 70px 0
+
+.interests_carousel
+  height: auto !important
+
+.interests_carousel .cat_loop_item .cat_loop_item_meta
+  min-height: 1px
+  
+/* replay section */
+.replay_s
+  padding: 0 0 70px
+
+.replay_carousel
+  height: auto !important
+
+.replay_carousel li
+
+  .ttl
+    font-size: 22px
+    line-height: 28px
+    color: $fc_green
+    margin-bottom: 20px
+
+  .text
+    margin-bottom: 20px
+
+    p
+      margin-bottom: 15px
+
+      &:last-child
+        margin-bottom: 0
+
+  .replay_name
+    font-size: 14px
+    line-height: 26px
+
+/* home page full width section */
+.hp_fw_last_s
+  padding: 110px 0 140px
+  background: url(img/hp_fw_lastslide.jpg) no-repeat center
+  background-size: cover
+  text-align: center
+  color: #fff
+
+  .ttl
+    font-size: 60px
+    line-height: 65px
+    margin-bottom: 35px
+
+  .sub_ttl
+    font-size: 24px
+    line-height: 36px
+    margin-bottom: 60px
+
+.mm-listview > li > a,
+.mm-listview > li > span,
+.mm-menu.mm-theme-dark .mm-navbar a,
+.mm-menu.mm-theme-dark .mm-navbar > *
+  color: #fff
