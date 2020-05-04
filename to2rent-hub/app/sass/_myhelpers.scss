@@ -1,0 +1,47 @@
+.upper {
+  text-transform: uppercase;
+}
+
+.abs {
+  position: absolute;
+}
+
+.rel {
+  position: relative;
+}
+
+.cY {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.cX {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.cXY {
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+b,
+strong {
+  font-style: bold;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.title {
+  font-size: 48px;
+  line-height: 52px;
+  color: #ffffff;
+  font-family: $second-font;
+}
+
+.mb-200 {
+  margin-bottom: 200px;
+}

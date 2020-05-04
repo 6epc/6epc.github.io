@@ -1,0 +1,30 @@
+.carousel {
+  position: relative;
+
+  &__item {
+    min-height: 600px;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &__btn {
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+
+    &--prev {
+      left: 20px;
+    }
+
+    &--next {
+      right: 20px;
+    }
+  }
+}

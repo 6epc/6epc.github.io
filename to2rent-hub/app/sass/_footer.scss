@@ -1,0 +1,174 @@
+.footer_top {
+  background-color: #000000;
+  padding: 100px 0;
+}
+
+.ft_flex {
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  &__item {
+    width: calc(100%/3);
+    text-align: center;
+
+    &--managers {
+      width: 300px;
+    }
+
+    &--blog {
+      width: 400px;
+    }
+
+    &--replay {
+      width: 300px;
+    }
+  }
+}
+
+.manager_list {
+  margin-top: 23px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.manager-item {
+  max-width: 120px;
+  text-align: center;
+
+  &+.manager-item {
+    margin-left: 55px;
+  }
+
+  &__img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+  }
+
+  &__meta {
+    padding: 0;
+    list-style: none;
+    margin: 0 0 50px;
+
+    li {
+      font-size: 18px;
+      line-height: 21px;
+      color: #fff;
+    }
+  }
+
+
+}
+
+.footer_btn {
+  color: #000000;
+  background-color: #fff;
+  font-size: 18px;
+  line-height: 1;
+  padding: 15px 21px;
+  display: inline-block;
+
+  &:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: $light_grey_hover;
+  }
+}
+
+.blog-list {
+  padding: 0;
+  margin: 40px 0 0;
+  list-style: none;
+
+  &__item {
+    position: relative;
+    padding-left: 60px;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 18px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &::before {
+      content: "";
+      width: 30px;
+      height: 30px;
+      background: url(../img/more-arrow-icon_white.svg) no-repeat center;
+      background-size: cover;
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
+
+  &__link {
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.5;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+
+.replay {
+  margin: 40px 0 0;
+  text-align: left;
+
+  &__text {
+    color: #fff;
+    margin: 22px 0 35px;
+    font-size: 18px;
+    line-height: 21px;
+  }
+}
+
+.vertical-menu {
+  padding: 0;
+  margin: 0 140px 0 0;
+  list-style: none;
+
+  >.vertical-menu__item {
+
+    &:hover {
+      >.vertical-menu__link {
+        text-decoration: underline;
+      }
+    }
+
+    >.vertical-menu__link {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 24px;
+      line-height: 36px;
+    }
+  }
+}
+
+footer {
+  .search-form__input {
+    width: 510px;
+  }
+
+  .search-form__label {
+    margin: 0 10px 0 0;
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .search-form__submit {
+    font-size: 18px;
+    padding: 23px 35px 23px 35px;
+  }
+}
+
+.footer_bottom {
+  padding: 5px 0 25px;
+  text-align: center;
+}
