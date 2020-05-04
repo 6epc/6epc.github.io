@@ -33,4 +33,8 @@ https://6epc.github.io/green-lamb-hub/contact.html <br>
 https://6epc.github.io/green-lamb-hub/report_feedback.html <br>
 https://6epc.github.io/green-lamb-hub/single_tour.html <br>
 
+********************************************************************************
+To2rent: <br>
+https://6epc.github.io/to2rent-hub/dist/index.html
+
 
